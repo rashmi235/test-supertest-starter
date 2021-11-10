@@ -1,0 +1,19 @@
+{
+  "name": "supertest-starterkit",
+  "version": "1.0.0",
+  "description": "Supertest starter kit with basic setup done.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --reporters default jest-stare"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
+    "faker": "^5.5.3",
+    "jest": "^27.2.4",
+    "jest-stare": "^2.0.1",
+    "supertest": "^6.1.6"
+  }
+}
