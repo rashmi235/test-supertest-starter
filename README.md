@@ -1,10 +1,12 @@
-#This repo holds a working example on supertest API framework.
+# supertest-starterkit 
 
-###EndPoint Used: https://reqres.in/
-###Sample tests covering POST and GET added.
+This repo holds a working example on supertest API framework.
 
-####Requirements to run on your local machine:
->node (version > 10 ) on your machine and should be set to PATH
+EndPoint Used: https://reqres.in/
+Sample tests covering POST and GET added.
+
+## Requirements to run on your local machine:
+> node (version > 10 ) on your machine and should be set to PATH
 
 > npm
 
@@ -12,16 +14,16 @@
 
 > Code Editor: Visual Studio code
 
-##Bring up in local & run tests
->docker-compose -f docker-compose.yaml up
+## Bring up in local & run tests
+> docker-compose -f docker-compose.yaml up
 
-##Run first test in local terminal without docker
+## Run first test in local terminal without docker
 > npm install
 
 > npm test
-##Check HTML Report
+## Check HTML Report
 > Find reports (index.html) present at location ./jest-stare
 
 
-###Congratulations!!! You have successfully run your first API test using supertest.
+### Congratulations!!! You have successfully run your first API test using supertest.
 
